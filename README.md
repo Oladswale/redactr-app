@@ -19,7 +19,7 @@ cd redactr-app
 
 2. **Install Dependencies**:
 
-npm install
+npm install express
 
 3. **Start the App**:
 
