@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redactr App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Redactr - Scramble Some Words</h1>
+      <form action="/scramble" method="POST">
+        <textarea
+          name="text"
+          rows="5"
+          cols="50"
+          placeholder="Enter your text here"
+        ></textarea
+        ><br />
+        <input
+          type="text"
+          name="words"
+          placeholder="Words to scramble (separated by spaces)"
+        /><br />
+        <button class="btn" type="submit">Scramble</button>
+      </form>
+    </div>
+  </body>
+</html>
